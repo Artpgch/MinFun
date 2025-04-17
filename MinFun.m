@@ -9,8 +9,8 @@ f = zeros(l);
 for p = 1:l 
     for q = 1:l 
         f(p,q) = OFun([x(p,q), y(p,q)]); 
-    end % Конец внутреннего цикла.
-end % Конец цикла.
+    end
+end
 
 fmin = f(1,1);
 for p = 1:l 
